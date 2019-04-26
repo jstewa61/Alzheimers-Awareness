@@ -1,0 +1,144 @@
+a:hover, a:active {color: #bfacc8;
+}
+
+
+.menubutton {width: 34px;
+            padding: 21px 0px 0px 0px;
+
+}
+
+nav ul {list-style-type: none;
+        text-align: right;
+        font-weight: 300;
+}
+
+header {display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+}
+
+.logo {width: 300px;
+      padding: 0px 0px 0px 25px;
+}
+
+.large-screen-menu {font-size: 1.3em;
+}
+
+@media screen and (min-width: 900px) {
+  .small-screen-menu {display: none;
+  }
+  .logo-stacked {width: 200px;
+  }
+  main {margin: 5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .large-screen-menu {display: none;
+  }
+  nav li {text-align: center;
+  }
+}
+
+
+/* Global */
+
+body {margin: 0 auto;
+}
+
+img {width: 100%;
+}
+
+p, a, h1, h2, h3 {font-family: 'Fira Sans', sans-serif;
+}
+
+p {color: #4b2c6b;
+}
+
+h1, h2 {color: #414042;
+}
+
+h1 {text-align: center;
+    font-size: 1.6em;
+}
+
+p {padding: 0% 20% 0% 20%}
+
+
+a {text-decoration: none;
+}
+
+main {margin: 0em;
+      max-width: 1300px;
+}
+
+footer {text-align: center;
+        background-color: #4b2c6b;
+        padding: 5px 0px 10px 0px;
+}
+
+/* Body */
+
+.paragraph-container {background-color: #ebe6f3;
+                      padding: 40px 0px 40px 0px;
+}
+
+.index-img {border-top: 1px solid #e6e7e8;
+}
+
+/* Scripts */
+
+/* Nav script link */
+
+HTML  CSS  JS  Result
+Edit on
+a.menu-link {
+        float: right;
+            display: block;
+            padding: 1em;
+        }
+        nav[role=navigation] {
+            clear: both;
+            -webkit-transition: all 0.8s ease-out;
+            -moz-transition: all 0.8s ease-out;
+            -ms-transition: all 0.8s ease-out;
+            -o-transition: all 0.8s ease-out;
+            transition: all 0.8s ease-out;
+        }
+        .js nav[role=navigation] {
+            overflow: hidden;
+            max-height: 0;
+        }
+        nav[role=navigation].active {
+            max-height: 25em;
+        }
+        nav[role=navigation] ul {
+            margin: 0;
+            padding-bottom: 1em;
+        }
+        nav[role=navigation] li a {
+            display: block;
+            padding: 0.8em;
+        }
+
+        @media screen and (min-width:900px) {
+            a.menu-link {
+               display: none;
+            }
+            .js nav[role=navigation] {
+                max-height: none;
+            }
+            nav[role=navigation] ul {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
+
+            nav[role=navigation]  li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+            nav[role=navigation] li a {
+                border: 0;
+            }
+        }
