@@ -29,11 +29,13 @@ header {display: flex;
 }
 
 
-.large-screen-menu {font-size: 1.3em;
+.large-screen-menu {font-size: 1.4em;
 }
 
 @media screen and (min-width: 800px) {
   .small-screen-menu {display: none;
+                      padding-bottom: 10px;
+                      padding-right: 20px;
   }
   main {margin: 5em;
   }
@@ -127,6 +129,7 @@ footer {text-align: center;
     width: 50%;
 height: 300px;
 
+}
 }
 
 .col-1-1 {background-color: #4b2c6b;
