@@ -3,7 +3,7 @@ a:hover, a:active {color: #bfacc8;
 
 
 .menubutton {width: 34px;
-            padding: 21px 0px 0px 0px;
+            padding: 21px 10px 21px 0px;
 
 }
 
@@ -94,7 +94,6 @@ footer {text-align: center;
 
 /* Grid System */
 
-/* resets */
 *,
 *:before,
 *:after {
@@ -114,7 +113,7 @@ footer {text-align: center;
 /* grid */
 .row {
   margin: 0 -10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 [class*="col-"] {
@@ -131,6 +130,7 @@ height: 300px;
 
 }
 }
+
 
 .col-1-1 {background-color: #4b2c6b;
       height: 400px;
@@ -156,22 +156,77 @@ height: 300px;
 
 }
 
+.arrow {font-size: .7em;
+}
+
 
 /* Button */
 
 
-.button {
+.button, .button2, .nav-button {
 	position: relative;
-	height: 50px;
-	width: 175px;
-	background: #4b2c6b;;
+	background-color: #bfacc8;
 	border-radius: 8px;
 	text-align: center;
 	cursor: pointer;
 }
 
-.button h2 {padding-top; 15px;
+.button, .button2, .nav-button {
+	position: relative;
+	background-color: #4b2c6b;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
 }
+
+.button3 {
+	position: relative;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button, .button2, .button3 {height: 50px;
+	       width: 150px;
+}
+
+.nav-button {height: 50px;
+	           width: 125px;
+}
+
+
+.button h2, .button2 h2, .button3 h2, .nav-button h4 {padding-top: 7px;
+}
+
+.button:hover, .nav-button:hover {background-color: #bfacc8;
+}
+
+.button3 {background-color: #bfacc8;
+          color: #bfacc8;
+}
+
+.button2:hover, .button3:hover {background-color: #e6e7e8;
+}
+
+.action-button1 {color: #ffffff;
+}
+
+.action-button2 {color: #ffffff;
+}
+
+.action-button3 {color: #ffffff;
+}
+
+.action-button1:hover {color: #4b2c6b;
+}
+
+.action-button2:hover {color: #4b2c6b;
+}
+
+.action-button3:hover {color: #4b2c6b;
+}
+
+
 
 
 /* Footer */
