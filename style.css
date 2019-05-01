@@ -112,7 +112,7 @@ footer {text-align: center;
 
 /* grid */
 .row {
-  margin: 0 -10px;
+  margin: 0px;
   margin-bottom: 0px;
 }
 
@@ -121,7 +121,7 @@ footer {text-align: center;
 }
 
 
-@media all and ( min-width: 600px ) {
+@media all and ( min-width: 850px ) {
 
   .col-1-1, .col-1-2, .col-1-3, .col-1-4 {
     float: left;
@@ -208,7 +208,7 @@ height: 300px;
 .button2:hover, .button3:hover {background-color: #e6e7e8;
 }
 
-.action-button1 {color: #ffffff;
+.action-button1, .submit {color: #ffffff;
 }
 
 .action-button2 {color: #ffffff;
@@ -226,12 +226,30 @@ height: 300px;
 .action-button3:hover {color: #4b2c6b;
 }
 
+/* Payment Form */
 
+.payment {margin: 0 auto;
+          width: 500px;
+}
+
+.input-box {width: 49%;
+            height: 35px;
+            padding: 10px;
+            border-radius: 7px;
+            border-style: 1px #4b2c6b;
+}
+
+.submit {width: 100%;
+        height: 35px;
+        border-radius: 7px;
+        background-color: #4b2c6b;
+}
 
 
 /* Footer */
 
-footer p {padding: 100px 0px 0px 100px;
+footer p {padding: 100px 0px 0px 0px;
+          color: #ffffff;
 }
 
 /* Scripts */
