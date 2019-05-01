@@ -58,6 +58,7 @@ body {margin: 0 auto;
 
 .body-h1, .body-h2 {text-align: center;
                     color: #414042;
+                    padding: 15px 0px 0px 0px;
 }
 
 .body-text {margin: 0% 3% 0% 3%;
