@@ -48,6 +48,9 @@ header {display: flex;
   }
 }
 
+nav a {transition: .3s;
+}
+
 /* Global */
 
 body {margin: 0 auto;
@@ -87,7 +90,8 @@ h1 {text-align: center;
     font-size: 1.6em;
 }
 
-
+hr {border-top: .5px solid #e6e7e8;
+}
 
 a {text-decoration: none;
 }
@@ -107,8 +111,6 @@ footer {text-align: center;
                       padding: 40px 0px 40px 0px;
 }
 
-.index-img {border-top: 1px solid #e6e7e8;
-}
 
 /* Grid System */
 
@@ -181,6 +183,9 @@ height: 300px;
 /* Button */
 
 
+.action-button1, .action-button2, .action-button3, .button, .button2, .button3 {transition: .3s;
+}
+
 .button, .button2, .nav-button {
 	position: relative;
 	background-color: #bfacc8;
@@ -210,6 +215,7 @@ height: 300px;
 
 .nav-button {height: 50px;
 	           width: 125px;
+            transition: .3s;
 }
 
 
@@ -309,7 +315,7 @@ a.menu-link {
         }
         nav[role=navigation] li a {
             display: block;
-            padding: 0.8em;
+            padding: 0px 15px 0px 0px;
         }
 
         @media screen and (min-width:800px) {
