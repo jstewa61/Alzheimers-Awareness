@@ -2,14 +2,14 @@ a:hover, a:active {color: #bfacc8;
 }
 
 
-.menubutton {width: 34px;
-            padding: 21px 10px 21px 0px;
+.menubutton {width: 48px;
+            padding: 15px 20px 10px 0px;
 
 }
 
 nav ul {list-style-type: none;
         text-align: right;
-        font-weight: 300;
+        font-weight: 500;
 }
 
 header {display: flex;
@@ -282,6 +282,7 @@ height: 300px;
 }
 
 input {border: .75px solid #e6e7e8;
+      color: #4b2c6b;
 }
 
 
