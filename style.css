@@ -53,6 +53,24 @@ header {display: flex;
 body {margin: 0 auto;
 }
 
+.body-h1, .body-h2 {text-align: center;
+                    color: #414042;
+}
+
+.body-text {margin: 0% 3% 0% 3%;
+            padding: 25px 0px 25px 0px;
+}
+
+@media screen and (min-width: 300px) {
+  .body-text {margin: 0% 20% 0% 20%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .body-text {margin: 0% 25% 0% 25%;
+  }
+}
+
 img {width: 100%;
 }
 
@@ -232,14 +250,21 @@ height: 300px;
           width: 500px;
 }
 
-.input-box {width: 49%;
-            height: 35px;
+.input-box {height: 35px;
             padding: 10px;
             border-radius: 7px;
             border-style: 1px #4b2c6b;
+            margin: 5px;
 }
 
-.submit {width: 100%;
+@media screen and (min-width: 600px) {
+                .input-box {width: 45%;
+}
+                .submit {width: 100%;
+}
+}
+
+.submit {width: 45%;
         height: 35px;
         border-radius: 7px;
         background-color: #4b2c6b;
