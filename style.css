@@ -137,7 +137,13 @@ footer {text-align: center;
 }
 
 [class*="col-"] {
-  padding: 70px;
+  padding: 40px 60px 0px 60px;
+}
+
+@media screen and (min-width: 600px) {
+  [class*="col-"] {
+    padding: 70px 70px 70px 70px;
+  }
 }
 
 
