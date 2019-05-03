@@ -78,7 +78,10 @@ body {margin: 0 auto;
 img {width: 100%;
 }
 
-p, a, h1, h2, h3 {font-family: 'Fira Sans', sans-serif;
+p, a {font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3 {font-family: 'Roboto', sans-serif;
 }
 
 p {color: #4b2c6b;
@@ -100,6 +103,16 @@ a {text-decoration: none;
 
 main {margin: 0em;
       max-width: 1300px;
+}
+
+.bold {font-weight: 700;
+      font-size: 1em;
+}
+
+@media screen and (min-width: 650px) {
+  .bold {font-weight: 700;
+        font-size: 1.1em;
+  }
 }
 
 footer {text-align: center;
@@ -178,10 +191,6 @@ height: 300px;
 
 }
 }
-
-
-
-
 
 
 .col-1-1, .learn-col-1-1 {background-color: #4b2c6b;
@@ -309,6 +318,17 @@ height: 300px;
 
 input {border: .75px solid #e6e7e8;
       color: #4b2c6b;
+}
+
+/* Learn */
+
+.facts {font-size: .9em;
+}
+
+@media screen and (min-width: 650px){
+  .facts {font-size: 1.1em;
+  }
+
 }
 
 
