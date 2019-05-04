@@ -56,6 +56,9 @@ nav a {transition: .3s;
 body {margin: 0 auto;
 }
 
+body p {font-style: 1em;
+}
+
 .body-h1, .body-h2 {text-align: center;
                     color: #414042;
                     padding: 15px 0px 0px 0px;
@@ -316,13 +319,13 @@ height: 300px;
         background-color: #4b2c6b;
 }
 
-input {border: .75px solid #e6e7e8;
+input, select {border: .75px solid #e6e7e8;
       color: #4b2c6b;
 }
 
 /* Learn */
 
-.facts {font-size: .9em;
+.facts {font-size: 1.1em;
 }
 
 @media screen and (min-width: 650px){
