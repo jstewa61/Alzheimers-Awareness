@@ -1,6 +1,7 @@
-a:hover, a:active {color: #bfacc8;
+a:hover, a:active {color: #4b2c6b;
 }
 
+a:before {color: }
 
 .menubutton {width: 48px;
             padding: 15px 20px 10px 0px;
