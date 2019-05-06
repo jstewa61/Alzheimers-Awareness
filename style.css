@@ -1,7 +1,8 @@
-a:hover, a:active {color: #4b2c6b;
+a:hover, a:active {color: #bfacc8;
 }
 
-a:before {color: }
+a:before {color: #4b2c6b;
+}
 
 .menubutton {width: 48px;
             padding: 15px 20px 10px 0px;
@@ -11,6 +12,8 @@ a:before {color: }
 nav ul {list-style-type: none;
         text-align: right;
         font-weight: 500;
+        font-size: 1.3em;
+        color: #4b2c6b;
 }
 
 header {display: flex;
@@ -66,11 +69,12 @@ body p {font-style: 1.5em;
 }
 
 .body-text {margin: 0% 3% 0% 3%;
-            padding: 25px 0px 25px 0px;
+            padding: 0px 0px 0px 0px;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 500px) {
   .body-text {margin: 0% 20% 0% 20%;
+              padding: 25px 0px 25px 0px;
   }
 }
 
@@ -103,6 +107,7 @@ hr {border-top: .5px solid #e6e7e8;
 }
 
 a {text-decoration: none;
+  color: inherit;
 }
 
 main {margin: 0em;
@@ -299,6 +304,7 @@ height: 300px;
 
 .payment {margin: 0 auto;
           width: 500px;
+          align-self: center;
 }
 
 .input-box {height: 35px;
