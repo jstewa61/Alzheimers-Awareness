@@ -58,6 +58,7 @@ nav a {transition: .3s;
 /* Global */
 
 body {margin: 0 auto;
+    max-width:1200px;
 }
 
 body p {font-style: 1.5em;
