@@ -58,7 +58,6 @@ nav a {transition: .3s;
 /* Global */
 
 body {margin: 0 auto;
-    max-width:1200px;
 }
 
 body p {font-style: 1.5em;
@@ -82,6 +81,10 @@ body p {font-style: 1.5em;
 @media screen and (min-width: 800px) {
   .body-text {margin: 0% 25% 0% 25%;
   }
+}
+
+.page-wrapper {margin: 0 auto;
+    max-width:1200px;
 }
 
 img {width: 100%;
@@ -112,7 +115,7 @@ a {text-decoration: none;
 }
 
 main {margin: 0em;
-      max-width: 1300px;
+      max-width: 1200px;
 }
 
 .bold {font-weight: 700;
@@ -128,6 +131,7 @@ main {margin: 0em;
 footer {text-align: center;
         background-color: #4b2c6b;
         padding: 5px 0px 10px 0px;
+        width: 100%;
 }
 
 /* Body */
